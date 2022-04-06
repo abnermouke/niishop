@@ -1,0 +1,20 @@
+{
+    "name": "abnermouke/niishop",
+    "description": "Niishop（ Nice & Infinity Shop）是一款基于Laravel搭建的电商解决方案，搭配abnermouke/easy-builder、abnermouke/console-builder等构建工具包可快速生成电商完整功能，单商户、分销、物流、订单、商品、用户功能应有尽有。",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Abnermouke\\Niishop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abnermouke",
+            "email": "abnermouke@outlook.com"
+        }
+    ],
+    "require": {
+        "abnermouke/console-builder": "*"
+    }
+}
